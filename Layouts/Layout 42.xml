@@ -117,7 +117,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="benar" uid="326">
+                <instance type="LUARBIASA" uid="326">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -127,14 +127,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>161</x>
-                        <y>667</y>
+                        <x>430</x>
+                        <y>182</y>
                         <z>0</z>
-                        <width>300</width>
-                        <height>300</height>
+                        <width>392</width>
+                        <height>365</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501466274</hotspotY>
+                        <hotspotY>0.500265837</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -149,14 +149,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>735</x>
-                        <y>675</y>
+                        <x>450</x>
+                        <y>193</y>
                         <z>0</z>
-                        <width>300</width>
-                        <height>300</height>
+                        <width>280</width>
+                        <height>344</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501457751</hotspotY>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -289,60 +289,6 @@
                         <depth>0</depth>
                         <hotspotX>0.500831962</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="score" uid="431">
-                    <properties>
-                        <text>score: 0</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Comic Sans MS,-21,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>616</x>
-                        <y>-141</y>
-                        <z>0</z>
-                        <width>232</width>
-                        <height>36</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="timer" uid="432">
-                    <properties>
-                        <text>TIMER :</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Comic Sans MS,-21,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>387</x>
-                        <y>8</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

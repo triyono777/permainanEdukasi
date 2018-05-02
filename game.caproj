@@ -10,14 +10,12 @@
     <unique-id>3dfj1twvawwvo</unique-id>
     <saved-with-version>25500</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
-        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors />
@@ -2748,11 +2746,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="benar" sid="3327593559025992">
+        <object-type name="LUARBIASA" sid="3327593559025992">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9656538146745691" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501466" original-source="H:\belajar android\Blok-D\Export Design\English For Beginners\Export\EkspresiBenar.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500266" original-source="H:\belajar android\LUAR BIASA.png">
                         <collision-poly>
                             <point x="0.200581" y="0.220096" />
                             <point x="0.5" y="0.000531632" />
@@ -2770,17 +2768,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6394506433339861" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501458" original-source="H:\belajar android\Blok-D\Export Design\English For Beginners\Export\EkspresiSalah.png">
-                        <collision-poly>
-                            <point x="0.143333" y="0.125364" />
-                            <point x="0.5" y="0.00291545" />
-                            <point x="0.836667" y="0.142857" />
-                            <point x="0.943333" y="0.498542" />
-                            <point x="1" y="1" />
-                            <point x="0.0266667" y="0.976676" />
-                            <point x="0.0166667" y="0.498542" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="H:\belajar android\SALAH.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2914,7 +2902,7 @@
         <object-type name="soalWATERMELON" sid="848241054648746">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788814206376984" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788814206376984" speed="5">
                     <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Tebak Gambar\WATERMELON.png">
                         <collision-poly>
                             <point x="0.0216306" y="0.0219595" />
@@ -2954,7 +2942,7 @@
         <object-type name="FOOT" sid="985930812562307">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="597051132475852" speed="0">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="597051132475852" speed="5">
                     <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Tebak Gambar\FOOT.png">
                         <collision-poly>
                             <point x="0.0216306" y="0.0219595" />
@@ -2977,7 +2965,7 @@
         <object-type name="red" sid="461989456391704">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311350961373669" speed="0">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311350961373669" speed="5">
                     <frame duration="1" hotspotX="0.500832" hotspotY="0.500846" original-source="H:\belajar android\Blok-D\Tebak Gambar\red.png">
                         <collision-poly>
                             <point x="0.0199667" y="0.0203046" />
@@ -2999,7 +2987,7 @@
         <object-type name="BLACKBOARD2" sid="783285122049420">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609521285949246" speed="0">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609521285949246" speed="5">
                     <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Tebak Gambar\BLACKBOARD.png">
                         <collision-poly>
                             <point x="0.0216306" y="0.0219595" />
@@ -3021,7 +3009,7 @@
         <object-type name="COOKING" sid="364624669532684">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508234516072706" speed="0">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508234516072706" speed="5">
                     <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Tebak Gambar\COOKING.png">
                         <collision-poly>
                             <point x="0.0216306" y="0.0219595" />
@@ -4024,583 +4012,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="639434941480339">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text2" sid="678294174751215">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="question" sid="834189194999825">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="pilihan3" sid="554879085343524">
-            <plugin id="Text" />
-        </object-type>
-        <object-type global="1" name="Array" sid="977275611655618">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type name="AJAX" sid="428608020675534">
-            <plugin id="AJAX" />
-        </object-type>
-        <object-type name="Sprite86" sid="461823229899446">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451050293574364" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\1.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0.010989" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0196721" y="0.934066" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite96" sid="946602218734372">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="717515317319004" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\2.png">
-                        <collision-poly>
-                            <point x="0.0196721" y="0.0659341" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite98" sid="753082494215919">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854972037176004" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\3.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0.010989" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="eye" sid="293595041037934">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="175824918201275" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\eye.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219595" />
-                            <point x="0.499168" y="0.00168919" />
-                            <point x="0.978369" y="0.0219595" />
-                            <point x="1" y="0.5" />
-                            <point x="0.978369" y="0.978041" />
-                            <point x="0.499168" y="0.998311" />
-                            <point x="0.0216306" y="0.978041" />
-                            <point x="0.00166389" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="score" sid="849526185974004">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="hair" sid="471069157528323">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252216938516563" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\hair.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219595" />
-                            <point x="0.499168" y="0.00168919" />
-                            <point x="0.978369" y="0.0219595" />
-                            <point x="1" y="0.5" />
-                            <point x="0.978369" y="0.978041" />
-                            <point x="0.499168" y="0.998311" />
-                            <point x="0.0216306" y="0.978041" />
-                            <point x="0.00166389" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite99" sid="909416272075666">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542337710709965" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\4.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.980328" y="0.0659341" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite102" sid="554573693628055">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682774460189929" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\2.png">
-                        <collision-poly>
-                            <point x="0.0196721" y="0.0659341" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite103" sid="956242650077156">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502901247240744" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\5.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="ear" sid="579634290221845">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317252356790900" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\ear.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219595" />
-                            <point x="0.499168" y="0.00168919" />
-                            <point x="0.978369" y="0.0219595" />
-                            <point x="1" y="0.5" />
-                            <point x="0.978369" y="0.978041" />
-                            <point x="0.499168" y="0.998311" />
-                            <point x="0.0216306" y="0.978041" />
-                            <point x="0.00166389" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite104" sid="880205722177949">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762938138878580" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\3.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0.010989" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite105" sid="461250298733568">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160911734985093" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\6.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.076087" />
-                            <point x="0.498361" y="0.0108696" />
-                            <point x="0.977049" y="0.076087" />
-                            <point x="1" y="0.5" />
-                            <point x="0.977049" y="0.923913" />
-                            <point x="0.498361" y="0.98913" />
-                            <point x="0.0229508" y="0.923913" />
-                            <point x="0.00327869" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite106" sid="290687532557309">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603772852861957" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\4.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.980328" y="0.0659341" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite107" sid="492972499655462">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="992411108417179" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\1.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0.010989" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0196721" y="0.934066" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="FOOT2" sid="764486770472936">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613950495615981" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\FOOT.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219595" />
-                            <point x="0.499168" y="0.00168919" />
-                            <point x="0.978369" y="0.0219595" />
-                            <point x="1" y="0.5" />
-                            <point x="0.978369" y="0.978041" />
-                            <point x="0.499168" y="0.998311" />
-                            <point x="0.0216306" y="0.978041" />
-                            <point x="0.00166389" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite108" sid="525416074684945">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615522018992967" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\7.png">
-                        <collision-poly>
-                            <point x="0.0196721" y="0.0659341" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite109" sid="618617454832857">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493762651704912" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\8.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0.010989" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0196721" y="0.934066" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite110" sid="739884174068337">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="522209181150656" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\4.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.980328" y="0.0659341" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tooth" sid="237383659871251">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="146999808540864" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\tooth.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219595" />
-                            <point x="0.499168" y="0.00168919" />
-                            <point x="0.978369" y="0.0219595" />
-                            <point x="1" y="0.5" />
-                            <point x="0.978369" y="0.978041" />
-                            <point x="0.499168" y="0.998311" />
-                            <point x="0.0216306" y="0.978041" />
-                            <point x="0.00166389" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite111" sid="457916734004881">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="983866072824201" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\6.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.076087" />
-                            <point x="0.498361" y="0.0108696" />
-                            <point x="0.977049" y="0.076087" />
-                            <point x="1" y="0.5" />
-                            <point x="0.977049" y="0.923913" />
-                            <point x="0.498361" y="0.98913" />
-                            <point x="0.0229508" y="0.923913" />
-                            <point x="0.00327869" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite112" sid="385488231650940">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149408495981362" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\9.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite113" sid="656373694962895">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149527817274218" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\10.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0.010989" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite114" sid="495832721064687">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370976260016495" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\11.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.980328" y="0.0659341" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.980328" y="0.934066" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite115" sid="179222619268441">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133745366773561" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\12.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite116" sid="226307767913221">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663312475851709" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\13.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="cow2" sid="775389364894632">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638252339230148" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.500846" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\cow.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219966" />
-                            <point x="0.499168" y="0.00169205" />
-                            <point x="0.978369" y="0.0219966" />
-                            <point x="0.998336" y="0.499154" />
-                            <point x="0.980033" y="0.979695" />
-                            <point x="0.499168" y="1" />
-                            <point x="0.0199667" y="0.979695" />
-                            <point x="0" y="0.499154" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="timer" sid="867623891454826">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="elephant" sid="475811646211344">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="554327418069998" speed="5">
-                    <frame duration="1" hotspotX="0.500832" hotspotY="0.5" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\elephant.png">
-                        <collision-poly>
-                            <point x="0.0216306" y="0.0219595" />
-                            <point x="0.499168" y="0.00168919" />
-                            <point x="0.978369" y="0.0219595" />
-                            <point x="1" y="0.5" />
-                            <point x="0.978369" y="0.978041" />
-                            <point x="0.499168" y="0.998311" />
-                            <point x="0.0216306" y="0.978041" />
-                            <point x="0.00166389" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite117" sid="274391062942826">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729361016773018" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\14.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.980328" y="0.0659341" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.980328" y="0.934066" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0.00327869" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite118" sid="734195453962418">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213883858646408" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\15.png">
-                        <collision-poly>
-                            <point x="0.0229508" y="0.0769231" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="1" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite119" sid="802572346205755">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="743357291921316" speed="5">
-                    <frame duration="1" hotspotX="0.501639" hotspotY="0.505495" original-source="H:\belajar android\Blok-D\Export Design\Tebak Gambar\16.png">
-                        <collision-poly>
-                            <point x="0.0196721" y="0.0659341" />
-                            <point x="0.498361" y="0" />
-                            <point x="0.977049" y="0.0769231" />
-                            <point x="0.996721" y="0.494505" />
-                            <point x="0.977049" y="0.923077" />
-                            <point x="0.498361" y="0.989011" />
-                            <point x="0.0229508" y="0.923077" />
-                            <point x="0" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="SELESAI" sid="259620742063139">
-            <plugin id="Text" />
+        <object-type name="Tilemap" sid="921584407244133">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
         </object-type>
     </object-folder>
     <families />
@@ -4658,18 +4073,7 @@
         </layout-folder>
         <layout-folder name="tebak gambar">
             <layout>Layout 42.xml</layout>
-            <layout>Layout 48.xml</layout>
-            <layout>Layout 49.xml</layout>
-            <layout>Layout 50.xml</layout>
-            <layout>Layout 51.xml</layout>
-            <layout>Layout 52.xml</layout>
-            <layout>Layout 53.xml</layout>
-            <layout>Layout 54.xml</layout>
-            <layout>Layout 55.xml</layout>
-            <layout>Layout 56.xml</layout>
-            <layout>Layout 57.xml</layout>
-            <layout>Layout 58.xml</layout>
-            <layout>ENDTEBAKKATA.xml</layout>
+            <layout>tebakcoba.xml</layout>
         </layout-folder>
         <layout-folder name="hobby">
             <layout>hobbi.xml</layout>
@@ -4742,17 +4146,7 @@
         </event-folder>
         <event-folder name="tebak gambar">
             <event-sheet>Event sheet 42.xml</event-sheet>
-            <event-sheet>Event sheet 50.xml</event-sheet>
-            <event-sheet>Event sheet 48.xml</event-sheet>
-            <event-sheet>Event sheet 49.xml</event-sheet>
-            <event-sheet>Event sheet 51.xml</event-sheet>
-            <event-sheet>Event sheet 52.xml</event-sheet>
-            <event-sheet>Event sheet 53.xml</event-sheet>
-            <event-sheet>Event sheet 54.xml</event-sheet>
-            <event-sheet>Event sheet 55.xml</event-sheet>
-            <event-sheet>Event sheet 57.xml</event-sheet>
-            <event-sheet>Event sheet 58.xml</event-sheet>
-            <event-sheet>Event sheet 56.xml</event-sheet>
+            <event-sheet>tebakcoba.xml</event-sheet>
         </event-folder>
         <event-folder name="hobby">
             <event-sheet>eventhobby.xml</event-sheet>
@@ -4767,9 +4161,8 @@
             <event-sheet>Event sheet 47.xml</event-sheet>
         </event-folder>
         <event-sheet>eventmainmenu.xml</event-sheet>
-        <event-sheet>eventvocab.xml</event-sheet>
         <event-sheet>eventdashboard.xml</event-sheet>
-        <event-sheet>EVENTENDTEBAKKATA.xml</event-sheet>
+        <event-sheet>eventvocab.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">
@@ -4792,7 +4185,6 @@
             </properties>
         </global-instance>
         <global-instance type="Function" uid="324" />
-        <global-instance type="AJAX" uid="396" />
     </global-instances>
     <sounds-folder />
     <music-folder>
@@ -4813,6 +4205,7 @@
             <file name="rambut.ogg" />
             <file name="tangan.ogg" />
             <file name="leher.ogg" />
+            <file name="shoulder.ogg" />
         </music-folder>
         <music-folder name="classroom">
             <file name="blabak.ogg" />
@@ -4830,6 +4223,107 @@
             <file name="setip.ogg" />
             <file name="tanggalan.ogg" />
             <file name="vas.ogg" />
+            <file name="c_papantulis.ogg" />
+            <file name="c_penghapus.ogg" />
+            <file name="c_meja.ogg" />
+            <file name="c_kursi.ogg" />
+            <file name="c_tanggalan.ogg" />
+            <file name="c_kapur.ogg" />
+            <file name="c_bola.ogg" />
+            <file name="c_buku.ogg" />
+            <file name="c_penggaris.ogg" />
+            <file name="c_gorden.ogg" />
+            <file name="c_jam.ogg" />
+            <file name="c_jendela.ogg" />
+            <file name="c_peta.ogg" />
+            <file name="c_vas.ogg" />
+            <file name="c_pintu.ogg" />
+        </music-folder>
+        <music-folder name="numbering">
+            <file name="1.ogg" />
+            <file name="10.ogg" />
+            <file name="100.ogg" />
+            <file name="11.ogg" />
+            <file name="12.ogg" />
+            <file name="13.ogg" />
+            <file name="14.ogg" />
+            <file name="15.ogg" />
+            <file name="16.ogg" />
+            <file name="17.ogg" />
+            <file name="18.ogg" />
+            <file name="19.ogg" />
+            <file name="2.ogg" />
+            <file name="20.ogg" />
+            <file name="21.ogg" />
+            <file name="22.ogg" />
+            <file name="23.ogg" />
+            <file name="24.ogg" />
+            <file name="25.ogg" />
+            <file name="26.ogg" />
+            <file name="27.ogg" />
+            <file name="28.ogg" />
+            <file name="29.ogg" />
+            <file name="3.ogg" />
+            <file name="30.ogg" />
+            <file name="4.ogg" />
+            <file name="40.ogg" />
+            <file name="5.ogg" />
+            <file name="50.ogg" />
+            <file name="6.ogg" />
+            <file name="60.ogg" />
+            <file name="7.ogg" />
+            <file name="70.ogg" />
+            <file name="8.ogg" />
+            <file name="80.ogg" />
+            <file name="9.ogg" />
+            <file name="90.ogg" />
+        </music-folder>
+        <music-folder name="animal">
+            <file name="anjing.ogg" />
+            <file name="bird.ogg" />
+            <file name="cicak.ogg" />
+            <file name="cow.ogg" />
+            <file name="crocodile.ogg" />
+            <file name="gajah.ogg" />
+            <file name="goat.ogg" />
+            <file name="ikan.ogg" />
+            <file name="Jerapah.ogg" />
+            <file name="kucing.ogg" />
+            <file name="lion.ogg" />
+            <file name="monyet.ogg" />
+            <file name="nyamuk.ogg" />
+            <file name="tikus.ogg" />
+            <file name="unta.ogg" />
+        </music-folder>
+        <music-folder name="fruit">
+            <file name="alpukat.ogg" />
+            <file name="anggur.ogg" />
+            <file name="apel.ogg" />
+            <file name="belimbing.ogg" />
+            <file name="gandhul.ogg" />
+            <file name="gedang.ogg" />
+            <file name="glundung.ogg" />
+            <file name="jambubiji.ogg" />
+            <file name="jeruk.ogg" />
+            <file name="kelengkeng.ogg" />
+            <file name="manggis.ogg" />
+            <file name="melon.ogg" />
+            <file name="nanas.ogg" />
+            <file name="nangka.ogg" />
+            <file name="pelem.ogg" />
+            <file name="semangka.ogg" />
+        </music-folder>
+        <music-folder name="color">
+            <file name="biru.ogg" />
+            <file name="coklat.ogg" />
+            <file name="hijau.ogg" />
+            <file name="hitam.ogg" />
+            <file name="kuning.ogg" />
+            <file name="merah.ogg" />
+            <file name="pink.ogg" />
+            <file name="putih.ogg" />
+            <file name="tabu2.ogg" />
+            <file name="ungu.ogg" />
         </music-folder>
         <file name="a.ogg" />
         <file name="b.ogg" />

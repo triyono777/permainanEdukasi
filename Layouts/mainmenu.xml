@@ -120,11 +120,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>450</x>
-                        <y>250</y>
+                        <x>451</x>
+                        <y>231</y>
                         <z>0</z>
-                        <width>720</width>
-                        <height>78</height>
+                        <width>531</width>
+                        <height>62</height>
                         <depth>0</depth>
                         <hotspotX>0.500645161</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -142,10 +142,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>445.944152832</x>
-                        <y>380.95501709</y>
+                        <x>448</x>
+                        <y>381</y>
                         <z>0</z>
-                        <width>127</width>
+                        <width>120</width>
                         <height>164</height>
                         <depth>0</depth>
                         <hotspotX>0.502538085</hotspotX>
@@ -158,14 +158,6 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances>
-        <instance type="Array" uid="395">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-    </nonworld-instances>
+    <nonworld-instances />
     <effects />
 </c2layout>

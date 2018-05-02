@@ -35,7 +35,34 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="288061221826058" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="860227412128896">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="748608786905441" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="664287575888079" type="backgon">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">250</param>
+                </action>
+                <action id="-3" name="Set position" sid="347763840347619" type="sepor">
+                    <param id="0" name="X">446</param>
+                    <param id="1" name="Y"> 367</param>
+                </action>
+                <action id="-3" name="Set position" sid="595424794362606" type="home">
+                    <param id="0" name="X">51</param>
+                    <param id="1" name="Y">37</param>
+                </action>
+                <action id="-3" name="Set position" sid="284126874725771" type="next">
+                    <param id="0" name="X">817</param>
+                    <param id="1" name="Y">48</param>
+                </action>
+                <action id="-3" name="Set position" sid="676757095718457" type="back">
+                    <param id="0" name="X">666</param>
+                    <param id="1" name="Y">48</param>
                 </action>
             </actions>
         </event-block>

@@ -35,7 +35,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="931092958944297" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
                 </action>
             </actions>
         </event-block>
@@ -61,44 +61,44 @@
                 <action id="-3" name="Create object" sid="786918800947501" type="System">
                     <param id="0" name="Object to create">next</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">750</param>
-                    <param id="3" name="Y">400</param>
+                    <param id="2" name="X">819</param>
+                    <param id="3" name="Y">454</param>
                 </action>
                 <action id="-3" name="Create object" sid="801180586492239" type="System">
                     <param id="0" name="Object to create">back</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">150</param>
-                    <param id="3" name="Y">400</param>
+                    <param id="2" name="X">81</param>
+                    <param id="3" name="Y">454</param>
                 </action>
                 <action id="-3" name="Create object" sid="359192130758350" type="System">
                     <param id="0" name="Object to create">Classroom2</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">224</param>
-                    <param id="3" name="Y">128</param>
+                    <param id="2" name="X">191</param>
+                    <param id="3" name="Y">160</param>
                 </action>
                 <action id="-3" name="Create object" sid="319321507463763" type="System">
                     <param id="0" name="Object to create">Sprite41</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">480</param>
-                    <param id="3" name="Y">128</param>
+                    <param id="2" name="X">468</param>
+                    <param id="3" name="Y">160</param>
                 </action>
                 <action id="-3" name="Create object" sid="956589181556483" type="System">
                     <param id="0" name="Object to create">Sprite42</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">736</param>
-                    <param id="3" name="Y">128</param>
+                    <param id="2" name="X">749</param>
+                    <param id="3" name="Y">160</param>
                 </action>
                 <action id="-3" name="Create object" sid="851303571311812" type="System">
                     <param id="0" name="Object to create">Sprite44</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">320</param>
-                    <param id="3" name="Y">384</param>
+                    <param id="2" name="X">328</param>
+                    <param id="3" name="Y">385</param>
                 </action>
                 <action id="-3" name="Create object" sid="957936994581731" type="System">
                     <param id="0" name="Object to create">Sprite43</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">544</param>
-                    <param id="3" name="Y">384</param>
+                    <param id="2" name="X">605</param>
+                    <param id="3" name="Y">385</param>
                 </action>
             </actions>
         </event-block>
@@ -120,17 +120,28 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="251042516445588" type="Audio">
+                <action id="-7" name="Set size" sid="691083434048099" type="Sprite41">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="432179065186703" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="240039650524389" type="Sprite41">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="324799331039015" type="Audio">
                     <param id="0" name="Audio file">setip</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-16" name="Wait" sid="675988720393842" type="System">
+                <action id="-16" name="Wait" sid="554695016217341" type="System">
                     <param id="0" name="Seconds">1</param>
                 </action>
-                <action id="0" name="Play" sid="516980400043081" type="Audio">
-                    <param id="0" name="Audio file">translate_tts</param>
+                <action id="0" name="Play" sid="862612399523175" type="Audio">
+                    <param id="0" name="Audio file">c_penghapus</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -144,8 +155,28 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="733449981002308" type="Audio">
+                <action id="-7" name="Set size" sid="213320854806911" type="Sprite42">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="582528228526165" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="809558200688970" type="Sprite42">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="914707720396491" type="Audio">
                     <param id="0" name="Audio file">meja</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="225248234007775" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="262128385475662" type="Audio">
+                    <param id="0" name="Audio file">c_meja</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -159,8 +190,28 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-7" name="Set size" sid="241822572617993" type="Classroom2">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="425108760601229" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="251027433183140" type="Classroom2">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
                 <action id="0" name="Play" sid="585170936440619" type="Audio">
                     <param id="0" name="Audio file">blabak</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="711407981085334" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="352471209495172" type="Audio">
+                    <param id="0" name="Audio file">c_papantulis</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -174,8 +225,28 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="519728356581706" type="Audio">
+                <action id="-7" name="Set size" sid="279946374948152" type="Sprite43">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="828472932589503" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="319668373308329" type="Sprite43">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="185709138345943" type="Audio">
                     <param id="0" name="Audio file">kursi</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="318635535399854" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="598508576106145" type="Audio">
+                    <param id="0" name="Audio file">c_kursi</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -189,8 +260,28 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="337623753045023" type="Audio">
+                <action id="-7" name="Set size" sid="889524402119154" type="Sprite44">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="814551754548842" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="692360547029080" type="Sprite44">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="902505352202392" type="Audio">
                     <param id="0" name="Audio file">tanggalan</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="383613102519497" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="203559049676041" type="Audio">
+                    <param id="0" name="Audio file">c_tanggalan</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

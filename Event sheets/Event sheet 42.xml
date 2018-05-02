@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 42</name>
     <events>
-        <variable constant="0" name="TIMER3" sid="873436609183526" static="0" type="number">16</variable>
         <variable constant="0" name="skor" sid="3116976562426582" static="0" type="number">0</variable>
         <variable constant="0" name="jawaban" sid="6940601709815195" static="0" type="number">0</variable>
         <event-block sid="9255480280619043">
@@ -13,10 +12,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="513253218434459" type="System">
-                    <param id="0" name="Variable">TIMER3</param>
-                    <param id="1" name="Value">16</param>
-                </action>
                 <action id="-3" name="Create object" sid="2165288356236572" type="System">
                     <param id="0" name="Object to create">AlphabateBackground4</param>
                     <param id="1" name="Layer">0</param>
@@ -41,18 +36,6 @@
                 </action>
                 <action id="5" name="Set frame" sid="7583195755603338" type="tebakgambarpisang">
                     <param id="0" name="Frame number">jawaban</param>
-                </action>
-                <action id="-3" name="Create object" sid="886864856379490" type="System">
-                    <param id="0" name="Object to create">score</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">580</param>
-                    <param id="3" name="Y">9</param>
-                </action>
-                <action id="-3" name="Create object" sid="686753073822978" type="System">
-                    <param id="0" name="Object to create">timer</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">387</param>
-                    <param id="3" name="Y">9</param>
                 </action>
             </actions>
         </event-block>
@@ -130,10 +113,10 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-3" name="Create object" sid="478676526095898" type="System">
-                            <param id="0" name="Object to create">benar</param>
+                            <param id="0" name="Object to create">LUARBIASA</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">450</param>
-                            <param id="3" name="Y">200</param>
+                            <param id="2" name="X">430</param>
+                            <param id="3" name="Y">182</param>
                         </action>
                         <action id="-9" name="Destroy" sid="7952807767115285" type="SALAH" />
                         <action id="-16" name="Wait" sid="8616188474062769" type="System">
@@ -163,10 +146,10 @@
                         <action id="-3" name="Create object" sid="67435257734122" type="System">
                             <param id="0" name="Object to create">SALAH</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">450</param>
+                            <param id="2" name="X">460</param>
                             <param id="3" name="Y">200</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="1673884639635247" type="benar" />
+                        <action id="-9" name="Destroy" sid="1673884639635247" type="LUARBIASA" />
                         <action id="-16" name="Wait" sid="5043854086366101" type="System">
                             <param id="0" name="Seconds">1.0</param>
                         </action>
@@ -182,7 +165,7 @@
         <event-block sid="3253549085255702">
             <conditions>
                 <condition id="17" name="On tap object" sid="7111096608351367" type="Touch">
-                    <param id="0" name="Object">benar</param>
+                    <param id="0" name="Object">LUARBIASA</param>
                 </condition>
             </conditions>
             <actions>
@@ -205,46 +188,6 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="7557093934672005" type="System">
                     <param id="0" name="Layout">dashboard</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="299981668703523">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="262866785831039" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="793710951258130" type="score">
-                    <param id="0" name="Text">&quot;nilai: &quot;&amp;skor</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="793917411592421">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="722090963698384" type="System">
-                    <param id="0" name="Interval (seconds)">1.0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Subtract from" sid="252216309641483" type="System">
-                    <param id="0" name="Variable">TIMER3</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Set text" sid="391402432259471" type="timer">
-                    <param id="0" name="Text">&quot;TIMER : &quot;&amp;TIMER3</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="429034827655048">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="271341307920414" type="System">
-                    <param id="0" name="Variable">TIMER3</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="460242594076903" type="System">
-                    <param id="0" name="Layout">ENDTEBAKKATA</param>
                 </action>
             </actions>
         </event-block>

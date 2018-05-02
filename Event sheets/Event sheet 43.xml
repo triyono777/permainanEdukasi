@@ -35,7 +35,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="679811902069380" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
                 </action>
             </actions>
         </event-block>

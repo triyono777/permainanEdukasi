@@ -35,7 +35,137 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="6437938820269051" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="558499171465341">
+            <conditions>
+                <condition id="17" name="On tap object" sid="319015816816375" type="Touch">
+                    <param id="0" name="Object">semangka</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="577128283327111" type="semangka">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="748162813943118" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="364790198843448" type="semangka">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="294079535329413" type="Audio">
+                    <param id="0" name="Audio file">semangka</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="875465658674314">
+            <conditions>
+                <condition id="17" name="On tap object" sid="259382391583340" type="Touch">
+                    <param id="0" name="Object">grape</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="532304491269231" type="grape">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="740307661784944" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="553841986191577" type="grape">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="337147375853385" type="Audio">
+                    <param id="0" name="Audio file">anggur</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="554600998509221">
+            <conditions>
+                <condition id="17" name="On tap object" sid="705905349484818" type="Touch">
+                    <param id="0" name="Object">jambu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="251739264750245" type="jambu">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="655085912028486" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="922779846915333" type="jambu">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="589522009918642" type="Audio">
+                    <param id="0" name="Audio file">jambubiji</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="335170383267509">
+            <conditions>
+                <condition id="17" name="On tap object" sid="445768947416189" type="Touch">
+                    <param id="0" name="Object">mangga</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="399390269438178" type="mangga">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="462948164018010" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="262445087511423" type="mangga">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="567830511765072" type="Audio">
+                    <param id="0" name="Audio file">pelem</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556680054913521">
+            <conditions>
+                <condition id="17" name="On tap object" sid="977983337632083" type="Touch">
+                    <param id="0" name="Object">nanas</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="361526572537428" type="nanas">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="962801640001438" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="941415211303814" type="nanas">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="551057651728823" type="Audio">
+                    <param id="0" name="Audio file">nanas</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

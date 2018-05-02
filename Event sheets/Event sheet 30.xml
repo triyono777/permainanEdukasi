@@ -15,18 +15,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="6549013099416846">
-            <conditions>
-                <condition id="17" name="On tap object" sid="3969834320856204" type="Touch">
-                    <param id="0" name="Object">back</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="7927756036750113" type="System">
-                    <param id="0" name="Layout">Layout 32</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="4616770731082781">
             <conditions>
                 <condition id="17" name="On tap object" sid="7236714763652166" type="Touch">
@@ -35,7 +23,137 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="8497879343564552" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="614262567849026">
+            <conditions>
+                <condition id="17" name="On tap object" sid="118015566875694" type="Touch">
+                    <param id="0" name="Object">apel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="719216210480127" type="apel">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="311696462131701" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="209973844876779" type="apel">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="106158425355975" type="Audio">
+                    <param id="0" name="Audio file">apel</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="635427231954547">
+            <conditions>
+                <condition id="17" name="On tap object" sid="385647812028588" type="Touch">
+                    <param id="0" name="Object">banana</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="685936202254553" type="banana">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="300342543793808" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="767098388245802" type="banana">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="794157662011564" type="Audio">
+                    <param id="0" name="Audio file">gedang</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="964197998169819">
+            <conditions>
+                <condition id="17" name="On tap object" sid="874508877446539" type="Touch">
+                    <param id="0" name="Object">melon</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="362840041547358" type="melon">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="270557117774759" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="944346807063425" type="melon">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="181447354229831" type="Audio">
+                    <param id="0" name="Audio file">melon</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879926360587894">
+            <conditions>
+                <condition id="17" name="On tap object" sid="739377580266308" type="Touch">
+                    <param id="0" name="Object">jeruk</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="236414597269609" type="jeruk">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="743401101988947" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="815424284918088" type="jeruk">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="984803889100081" type="Audio">
+                    <param id="0" name="Audio file">jeruk</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="977351904706295">
+            <conditions>
+                <condition id="17" name="On tap object" sid="734564104950485" type="Touch">
+                    <param id="0" name="Object">pepaya</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="411265337527281" type="pepaya">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="191501962498120" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="970905396176128" type="pepaya">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="603211771612543" type="Audio">
+                    <param id="0" name="Audio file">gandhul</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

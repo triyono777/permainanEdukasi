@@ -35,7 +35,137 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="2017672186759852" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="839977527497734">
+            <conditions>
+                <condition id="17" name="On tap object" sid="788112840359905" type="Touch">
+                    <param id="0" name="Object">sapi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="199612261288373" type="sapi">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="703196656699863" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="519839582339794" type="sapi">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="565229283493574" type="Audio">
+                    <param id="0" name="Audio file">cow</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="757973072249476">
+            <conditions>
+                <condition id="17" name="On tap object" sid="799560455846607" type="Touch">
+                    <param id="0" name="Object">unta</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="566460728887217" type="unta">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="878802279130530" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="534583012065886" type="unta">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="203417494583929" type="Audio">
+                    <param id="0" name="Audio file">unta</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="140709819105228">
+            <conditions>
+                <condition id="17" name="On tap object" sid="538279719922619" type="Touch">
+                    <param id="0" name="Object">s2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="713794210074052" type="s2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="772411044783097" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="966208016615365" type="s2">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="727632006224192" type="Audio">
+                    <param id="0" name="Audio file">lion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="201865666414727">
+            <conditions>
+                <condition id="17" name="On tap object" sid="339789266784043" type="Touch">
+                    <param id="0" name="Object">tikus</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="880351057409523" type="tikus">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="935114730461424" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="420697553459918" type="tikus">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="662454357279854" type="Audio">
+                    <param id="0" name="Audio file">tikus</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="766182276589885">
+            <conditions>
+                <condition id="17" name="On tap object" sid="945362822341859" type="Touch">
+                    <param id="0" name="Object">jerapah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="115415349489360" type="jerapah">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">154</param>
+                </action>
+                <action id="-16" name="Wait" sid="660097682180302" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="184223712002783" type="jerapah">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="0" name="Play" sid="279829762465332" type="Audio">
+                    <param id="0" name="Audio file">Jerapah</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

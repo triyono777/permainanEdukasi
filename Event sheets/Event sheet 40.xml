@@ -35,7 +35,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="222234271483294" type="System">
-                    <param id="0" name="Layout">dashboard</param>
+                    <param id="0" name="Layout">vocab</param>
                 </action>
             </actions>
         </event-block>
@@ -61,44 +61,44 @@
                 <action id="-3" name="Create object" sid="314628334091290" type="System">
                     <param id="0" name="Object to create">next</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">750</param>
-                    <param id="3" name="Y">400</param>
+                    <param id="2" name="X">819</param>
+                    <param id="3" name="Y">454</param>
                 </action>
                 <action id="-3" name="Create object" sid="342504187153123" type="System">
                     <param id="0" name="Object to create">back</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">150</param>
-                    <param id="3" name="Y">400</param>
+                    <param id="2" name="X">81</param>
+                    <param id="3" name="Y">454</param>
                 </action>
                 <action id="-3" name="Create object" sid="485359373787990" type="System">
                     <param id="0" name="Object to create">Sprite45</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">224</param>
-                    <param id="3" name="Y">128</param>
+                    <param id="2" name="X">191</param>
+                    <param id="3" name="Y">158</param>
                 </action>
                 <action id="-3" name="Create object" sid="779209155083193" type="System">
                     <param id="0" name="Object to create">Sprite46</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">448</param>
-                    <param id="3" name="Y">128</param>
+                    <param id="2" name="X">468</param>
+                    <param id="3" name="Y">160</param>
                 </action>
                 <action id="-3" name="Create object" sid="190296264178974" type="System">
                     <param id="0" name="Object to create">Sprite48</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">736</param>
-                    <param id="3" name="Y">128</param>
+                    <param id="2" name="X">749</param>
+                    <param id="3" name="Y">160</param>
                 </action>
                 <action id="-3" name="Create object" sid="593697241077792" type="System">
                     <param id="0" name="Object to create">Sprite47</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">320</param>
-                    <param id="3" name="Y">384</param>
+                    <param id="2" name="X">328</param>
+                    <param id="3" name="Y">385</param>
                 </action>
                 <action id="-3" name="Create object" sid="427807159918011" type="System">
                     <param id="0" name="Object to create">Sprite49</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">544</param>
-                    <param id="3" name="Y">384</param>
+                    <param id="2" name="X">605</param>
+                    <param id="3" name="Y">382</param>
                 </action>
             </actions>
         </event-block>
@@ -116,42 +116,177 @@
         <event-block sid="502284130416994">
             <conditions>
                 <condition id="17" name="On tap object" sid="471008958118858" type="Touch">
-                    <param id="0" name="Object">lukis</param>
+                    <param id="0" name="Object">Sprite45</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-7" name="Set size" sid="963573560090359" type="Sprite45">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="360210760137261" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="829622384690323" type="Sprite45">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="517736464375516" type="Audio">
+                    <param id="0" name="Audio file">lawang</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="610530388979414" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="276979389651926" type="Audio">
+                    <param id="0" name="Audio file">c_pintu</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="397145255555416">
             <conditions>
                 <condition id="17" name="On tap object" sid="763007434024128" type="Touch">
-                    <param id="0" name="Object">lukis</param>
+                    <param id="0" name="Object">Sprite46</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-7" name="Set size" sid="280195204054442" type="Sprite46">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="691513670341290" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="415434339129916" type="Sprite46">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="120448800176752" type="Audio">
+                    <param id="0" name="Audio file">kapur</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="874791412153587" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="872897894117414" type="Audio">
+                    <param id="0" name="Audio file">c_kapur</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="122068988743014">
             <conditions>
                 <condition id="17" name="On tap object" sid="887351361339091" type="Touch">
-                    <param id="0" name="Object">lukis</param>
+                    <param id="0" name="Object">Sprite47</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-7" name="Set size" sid="523442621988138" type="Sprite47">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="690913285781963" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="202773275931423" type="Sprite47">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="949681449425431" type="Audio">
+                    <param id="0" name="Audio file">rakbuku</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="441802184942444" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="393892828639697" type="Audio">
+                    <param id="0" name="Audio file">c_buku</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="572173314166724">
             <conditions>
                 <condition id="17" name="On tap object" sid="118759985908804" type="Touch">
-                    <param id="0" name="Object">lukis</param>
+                    <param id="0" name="Object">Sprite48</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-7" name="Set size" sid="640814751030200" type="Sprite48">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="503520788462036" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="795809403266964" type="Sprite48">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="813804075791555" type="Audio">
+                    <param id="0" name="Audio file">globe</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="812897582731009" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="600899777230393" type="Audio">
+                    <param id="0" name="Audio file">c_bola</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="824732924791855">
             <conditions>
                 <condition id="17" name="On tap object" sid="450623038015840" type="Touch">
-                    <param id="0" name="Object">lukis</param>
+                    <param id="0" name="Object">Sprite49</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-7" name="Set size" sid="680824942948228" type="Sprite49">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+                <action id="-16" name="Wait" sid="372672031112512" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="403731817773385" type="Sprite49">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="0" name="Play" sid="802770929312586" type="Audio">
+                    <param id="0" name="Audio file">penggaris</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="677125120252315" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="451518140122660" type="Audio">
+                    <param id="0" name="Audio file">c_penggaris</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 47</name>
+    <events>
+        <event-block sid="981275327671358">
+            <conditions>
+                <condition id="17" name="On tap object" sid="751710433495749" type="Touch">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="971746774820928" type="System">
+                    <param id="0" name="Layout">dashboard</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="848528643931787">
+            <conditions>
+                <condition id="17" name="On tap object" sid="322658599505550" type="Touch">
+                    <param id="0" name="Object">rambut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="174312057505944" type="Audio">
+                    <param id="0" name="Audio file">rambut</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="778365260754586">
+            <conditions>
+                <condition id="17" name="On tap object" sid="331157886736916" type="Touch">
+                    <param id="0" name="Object">kuku</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="510462023673280" type="Audio">
+                    <param id="0" name="Audio file">kuku</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="190215253467579">
+            <conditions>
+                <condition id="17" name="On tap object" sid="361358350868900" type="Touch">
+                    <param id="0" name="Object">Sprite89</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="820793719290955" type="Audio">
+                    <param id="0" name="Audio file">lip</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="621620900423177">
+            <conditions>
+                <condition id="17" name="On tap object" sid="477614907083661" type="Touch">
+                    <param id="0" name="Object">Sprite88</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="243475803191814" type="Audio">
+                    <param id="0" name="Audio file">mulut</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="576410783531843">
+            <conditions>
+                <condition id="17" name="On tap object" sid="769392629978808" type="Touch">
+                    <param id="0" name="Object">Sprite93</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="126096369488067" type="Audio">
+                    <param id="0" name="Audio file">gigi</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="448405540020514">
+            <conditions>
+                <condition id="17" name="On tap object" sid="761850107420409" type="Touch">
+                    <param id="0" name="Object">Sprite92</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="608137333275743" type="Audio">
+                    <param id="0" name="Audio file">hidung</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="661971106552616">
+            <conditions>
+                <condition id="17" name="On tap object" sid="309128212242076" type="Touch">
+                    <param id="0" name="Object">Sprite85</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="609812661629798" type="Audio">
+                    <param id="0" name="Audio file">jari</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="884961675829936">
+            <conditions>
+                <condition id="17" name="On tap object" sid="288125728667300" type="Touch">
+                    <param id="0" name="Object">Sprite87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="492657960861316" type="Audio">
+                    <param id="0" name="Audio file">jempol</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="265747912824885">
+            <conditions>
+                <condition id="17" name="On tap object" sid="722266100297733" type="Touch">
+                    <param id="0" name="Object">Sprite91</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="512053462202755" type="Audio">
+                    <param id="0" name="Audio file">kaki</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="386120256700949">
+            <conditions>
+                <condition id="17" name="On tap object" sid="452398632906915" type="Touch">
+                    <param id="0" name="Object">Sprite94</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="164901921498621" type="Audio">
+                    <param id="0" name="Audio file">tangan</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="202012762449254">
+            <conditions>
+                <condition id="17" name="On tap object" sid="634558448233505" type="Touch">
+                    <param id="0" name="Object">Sprite95</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="243432336478607" type="Audio">
+                    <param id="0" name="Audio file">lengan</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="113332398280600">
+            <conditions>
+                <condition id="17" name="On tap object" sid="751984741572177" type="Touch">
+                    <param id="0" name="Object">leher</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="378270183942830" type="Audio">
+                    <param id="0" name="Audio file">leher</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="698176507892028">
+            <conditions>
+                <condition id="17" name="On tap object" sid="360827166575742" type="Touch">
+                    <param id="0" name="Object">Sprite97</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="458337023441981" type="Audio">
+                    <param id="0" name="Audio file">kuping</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="655309668986987">
+            <conditions>
+                <condition id="17" name="On tap object" sid="505566850032770" type="Touch">
+                    <param id="0" name="Object">mata</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="863567727218070" type="Audio">
+                    <param id="0" name="Audio file">mata</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

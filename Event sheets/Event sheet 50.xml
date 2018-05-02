@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 50</name>
+    <events>
+        <event-block sid="849545366533693">
+            <conditions>
+                <condition id="17" name="On tap object" sid="284872239007521" type="Touch">
+                    <param id="0" name="Object">Sprite107</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="815616859463145" type="ear" />
+                <action id="-10" name="Add to" sid="427746141384057" type="System">
+                    <param id="0" name="Variable">skor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="896937222352224" type="System">
+                    <param id="0" name="Object to create">benar</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="136715719323267" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="385139324505323" type="System">
+                    <param id="0" name="Layout">Layout 51</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="430240189205348">
+            <conditions>
+                <condition id="17" name="On tap object" sid="275947042234937" type="Touch">
+                    <param id="0" name="Object">Sprite104</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="444124745942370" type="ear" />
+                <action id="-3" name="Create object" sid="703970627061835" type="System">
+                    <param id="0" name="Object to create">SALAH</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="171272251214512" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="499977077571896" type="System">
+                    <param id="0" name="Layout">Layout 51</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="564981302989078">
+            <conditions>
+                <condition id="17" name="On tap object" sid="874426265513976" type="Touch">
+                    <param id="0" name="Object">Sprite105</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="332692382439404" type="ear" />
+                <action id="-3" name="Create object" sid="159037817939824" type="System">
+                    <param id="0" name="Object to create">SALAH</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="391894280355686" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="465494817773136" type="System">
+                    <param id="0" name="Layout">Layout 51</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="507410927777825">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="759980886425327" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="344694798796931" type="AlphabateBackground">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">250</param>
+                </action>
+                <action id="-3" name="Set position" sid="164088329525095" type="home">
+                    <param id="0" name="X">50</param>
+                    <param id="1" name="Y">38</param>
+                </action>
+                <action id="-3" name="Set position" sid="348098106483383" type="ear">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+                <action id="-3" name="Set position" sid="794868254602007" type="Sprite104">
+                    <param id="0" name="X">150</param>
+                    <param id="1" name="Y">426</param>
+                </action>
+                <action id="-3" name="Set position" sid="531906333992970" type="Sprite107">
+                    <param id="0" name="X">454</param>
+                    <param id="1" name="Y">424</param>
+                </action>
+                <action id="-3" name="Set position" sid="645473641081250" type="Sprite105">
+                    <param id="0" name="X">756</param>
+                    <param id="1" name="Y">427</param>
+                </action>
+                <action id="-3" name="Set position" sid="283645848808859" type="score">
+                    <param id="0" name="X">580</param>
+                    <param id="1" name="Y">9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="313394596361220">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="876276689332824" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="467188692524580" type="score">
+                    <param id="0" name="Text">&quot;nilai: &quot;&amp;skor</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

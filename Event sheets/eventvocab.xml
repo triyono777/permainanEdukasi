@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventvocab</name>
+    <events>
+        <event-block sid="5599957654574604">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4709681698357267" type="Touch">
+                    <param id="0" name="Object">color</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5604292950521819" type="System">
+                    <param id="0" name="Layout">Layout 45</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3249822006696264">
+            <conditions>
+                <condition id="17" name="On tap object" sid="740007640046609" type="Touch">
+                    <param id="0" name="Object">animal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1993801774440806" type="System">
+                    <param id="0" name="Layout">Layout 27</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4209651891831715">
+            <conditions>
+                <condition id="17" name="On tap object" sid="1871465474531178" type="Touch">
+                    <param id="0" name="Object">classroom</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2802278073426649" type="System">
+                    <param id="0" name="Layout">Layout 39</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="818742645190599">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4811923651282957" type="Touch">
+                    <param id="0" name="Object">fruit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2132722808373388" type="System">
+                    <param id="0" name="Layout">Layout 30</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3833118317987809">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4448792292640066" type="Touch">
+                    <param id="0" name="Object">partOfBody</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9718528566729146" type="System">
+                    <param id="0" name="Layout">Layout 47</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2398493812985736">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4574743329670288" type="Touch">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7250503982014319" type="System">
+                    <param id="0" name="Layout">dashboard</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9493415365760148">
+            <conditions>
+                <condition id="17" name="On tap object" sid="6813830033468092" type="Touch">
+                    <param id="0" name="Object">hobbies</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="352729040866301" type="System">
+                    <param id="0" name="Layout">hobbi</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

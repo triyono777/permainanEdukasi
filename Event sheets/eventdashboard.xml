@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventdashboard</name>
+    <events>
+        <event-block sid="6740673432608992">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9437426055783834" type="Touch">
+                    <param id="0" name="Object">alphabet</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="1473463358167923" type="alphabet">
+                    <param id="0" name="Width">152</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-16" name="Wait" sid="726465968635179" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="8097726236866372" type="alphabet">
+                    <param id="0" name="Width">192</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="1365657502858013" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2380971307065655" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7192786535931259">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1780633260333323" type="Touch">
+                    <param id="0" name="Object">vocabulary</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="7683879512371626" type="vocabulary">
+                    <param id="0" name="Width">152</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-16" name="Wait" sid="1153916587919346" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="3064133856081654" type="vocabulary">
+                    <param id="0" name="Width">192</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="9930614790532539" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9378587958961767" type="System">
+                    <param id="0" name="Layout">vocab</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="422141618645496">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4787104658571727" type="Touch">
+                    <param id="0" name="Object">tebakGambar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="8744644776066448" type="tebakGambar">
+                    <param id="0" name="Width">152</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-16" name="Wait" sid="4410883237435072" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="4258999857800739" type="tebakGambar">
+                    <param id="0" name="Width">192</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="8753830269820447" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5984301149641231" type="System">
+                    <param id="0" name="Layout">Layout 42</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7598725719820352">
+            <conditions>
+                <condition id="17" name="On tap object" sid="2902974401104332" type="Touch">
+                    <param id="0" name="Object">numb</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="966210716592005" type="numb">
+                    <param id="0" name="Width">152</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-16" name="Wait" sid="3739649783325777" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="8162494747867249" type="numb">
+                    <param id="0" name="Width">192</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+                <action id="-16" name="Wait" sid="6522013455122716" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6705766993999387" type="System">
+                    <param id="0" name="Layout">Layout 33</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

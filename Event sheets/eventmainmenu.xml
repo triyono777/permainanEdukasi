@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventmainmenu</name>
+    <events>
+        <event-block sid="695525939995918">
+            <conditions>
+                <condition id="17" name="On tap object" sid="7895000367610858" type="Touch">
+                    <param id="0" name="Object">play2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="268350694266557" type="play2">
+                    <param id="0" name="Width">107</param>
+                    <param id="1" name="Height">144</param>
+                </action>
+                <action id="-16" name="Wait" sid="958549873881935" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-7" name="Set size" sid="458369040961523" type="play2">
+                    <param id="0" name="Width">127</param>
+                    <param id="1" name="Height">164</param>
+                </action>
+                <action id="-16" name="Wait" sid="234681117694530" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2538770164804421" type="System">
+                    <param id="0" name="Layout">dashboard</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8163560916147938">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2351743390006482" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="2256278278388447" type="Audio">
+                    <param id="0" name="Audio file">welcome-easily</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

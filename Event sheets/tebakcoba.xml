@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>tebakcoba</name>
+    <events>
+        <variable constant="0" name="skor2" sid="478885026028106" static="0" type="number">0</variable>
+        <variable constant="0" name="jawaban2" sid="404425728726633" static="0" type="number">0</variable>
+        <event-block sid="803006635290382">
+            <conditions>
+                <condition id="0" name="On function" sid="336606018353124" type="Function">
+                    <param id="0" name="Name">&quot;buatsoalhewan&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="366877863563231" type="System">
+                    <param id="0" name="Object to create">AlphabateBackground4</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-3" name="Create object" sid="511008114928331" type="System">
+                    <param id="0" name="Object to create">home</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">38</param>
+                </action>
+                <action id="-3" name="Create object" sid="597776291752505" type="System">
+                    <param id="0" name="Object to create">soalhewan</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-9" name="Set value" sid="631909107362060" type="System">
+                    <param id="0" name="Variable">jawaban</param>
+                    <param id="1" name="Value">floor(random(0,tebakgambarpisang.AnimationFrameCount-1))</param>
+                </action>
+                <action id="5" name="Set frame" sid="697790413895329" type="Sprite61">
+                    <param id="0" name="Frame number">jawaban</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="463265690572686">
+            <conditions>
+                <condition id="0" name="On function" sid="467233829543588" type="Function">
+                    <param id="0" name="Name">&quot;buatsoalbuah&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="664061490521963" type="System">
+                    <param id="0" name="Object to create">AlphabateBackground4</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-3" name="Create object" sid="985416636092785" type="System">
+                    <param id="0" name="Object to create">home</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">38</param>
+                </action>
+                <action id="-3" name="Create object" sid="146000731517878" type="System">
+                    <param id="0" name="Object to create">soalWATERMELON</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-9" name="Set value" sid="996800927771627" type="System">
+                    <param id="0" name="Variable">jawaban</param>
+                    <param id="1" name="Value">floor(random(0,tebakgambarpisang.AnimationFrameCount-1))</param>
+                </action>
+                <action id="5" name="Set frame" sid="353375217538995" type="tebakgambarpisang">
+                    <param id="0" name="Frame number">jawaban</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="518292572872147">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="809325601052511" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="779557810386964" type="Function">
+                    <param id="0" name="Name">&quot;buatsoal&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="349999292230914" type="Function">
+                    <param id="0" name="Name">&quot;buatpilihan&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="230520834808575">
+            <conditions>
+                <condition id="0" name="On function" sid="804545897593145" type="Function">
+                    <param id="0" name="Name">&quot;buatpilihan&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="560865017682171" type="System">
+                    <param id="0" name="Object to create">pilihan</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">400</param>
+                </action>
+                <action id="5" name="Set frame" sid="370262096509001" type="pilihan">
+                    <param id="0" name="Frame number">jawaban</param>
+                </action>
+                <action id="-3" name="Create object" sid="443309316117190" type="System">
+                    <param id="0" name="Object to create">pilihan</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">250</param>
+                    <param id="3" name="Y">400</param>
+                </action>
+                <action id="5" name="Set frame" sid="730003904172696" type="pilihan">
+                    <param id="0" name="Frame number">random(0,pilihan.AnimationFrameCount-1)</param>
+                </action>
+                <action id="-3" name="Create object" sid="390512235469327" type="System">
+                    <param id="0" name="Object to create">pilihan</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">650</param>
+                    <param id="3" name="Y">400</param>
+                </action>
+                <action id="5" name="Set frame" sid="827701939633852" type="pilihan">
+                    <param id="0" name="Frame number">random(0,pilihan.AnimationFrameCount-1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="294699200035492">
+            <conditions>
+                <condition id="17" name="On tap object" sid="261453695115499" type="Touch">
+                    <param id="0" name="Object">pilihan</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>benar</comment>
+                <event-block sid="907280584550303">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="311734468359670" type="System">
+                            <param id="0" name="First value">pilihan.AnimationFrame</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">tebakgambarpisang.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="537458407837947" type="System">
+                            <param id="0" name="Variable">skor</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="474680199896945" type="System">
+                            <param id="0" name="Object to create">LUARBIASA</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">430</param>
+                            <param id="3" name="Y">182</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="940943630202188" type="SALAH" />
+                        <action id="-16" name="Wait" sid="653042345200354" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="239786118583263" type="Function">
+                            <param id="0" name="Name">&quot;buatsoalhewan&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="339989448066419" type="Function">
+                            <param id="0" name="Name">&quot;buatpilihan&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>salah</comment>
+                <event-block sid="158012565405108">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="199746862021049" type="System" />
+                        <condition id="-8" name="Compare two values" sid="128106433900477" type="System">
+                            <param id="0" name="First value">pilihan.AnimationFrame</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">tebakgambarpisang.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="786484036045909" type="System">
+                            <param id="0" name="Object to create">SALAH</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">460</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="427882470728041" type="LUARBIASA" />
+                        <action id="-16" name="Wait" sid="531619843080168" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="408839478506497" type="SALAH" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="576961061937262">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="610236074410708">
+            <conditions>
+                <condition id="17" name="On tap object" sid="116360379235358" type="Touch">
+                    <param id="0" name="Object">LUARBIASA</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="719508446175102" type="Function">
+                    <param id="0" name="Name">&quot;buatsoal&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="711261642565777" type="Function">
+                    <param id="0" name="Name">&quot;buatpilihan&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="347349895560185">
+            <conditions>
+                <condition id="17" name="On tap object" sid="836075363864031" type="Touch">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="687533465097373" type="System">
+                    <param id="0" name="Layout">dashboard</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

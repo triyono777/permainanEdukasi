@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Layout 54</layout>
+        <layout order="1">Layout 55</layout>
+        <layout order="2">Layout 56</layout>
+        <layout order="3">Layout 57</layout>
+        <layout order="4">Layout 58</layout>
+        <layout order="5">Layout 48</layout>
+        <layout order="4">Layout 42</layout>
+        <layout order="6">ENDTEBAKKATA</layout>
+        <event-sheet order="3">Event sheet 58</event-sheet>
+        <event-sheet order="5">Event sheet 54</event-sheet>
+        <event-sheet order="0">Event sheet 55</event-sheet>
+        <event-sheet order="1">Event sheet 56</event-sheet>
+        <event-sheet order="2">Event sheet 57</event-sheet>
+        <event-sheet order="6">Event sheet 42</event-sheet>
+        <event-sheet active="1" order="7">EVENTENDTEBAKKATA</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/alpha/" />
+        <folder expanded="0" path="layout-folder/animal/" />
+        <folder expanded="0" path="layout-folder/fruit/" />
+        <folder expanded="0" path="layout-folder/number/" />
+        <folder expanded="0" path="layout-folder/classroom/" />
+        <folder expanded="1" path="layout-folder/tebak gambar/" />
+        <folder expanded="0" path="layout-folder/hobby/" />
+        <folder expanded="0" path="layout-folder/color/" />
+        <folder expanded="1" path="layout-folder/partbody/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/alpha/" />
+        <folder expanded="0" path="event-folder/animal/" />
+        <folder expanded="0" path="event-folder/fruit/" />
+        <folder expanded="0" path="event-folder/number/" />
+        <folder expanded="0" path="event-folder/classroom/" />
+        <folder expanded="1" path="event-folder/tebak gambar/" />
+        <folder expanded="0" path="event-folder/hobby/" />
+        <folder expanded="0" path="event-folder/color/" />
+        <folder expanded="1" path="event-folder/partbody/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="0" path="music-folder/partofbody/" />
+        <folder expanded="1" path="music-folder/classroom/" />
+        <folder expanded="1" path="animation-folder/homeScreen/" />
+        <folder expanded="1" path="animation-folder/tulisan/" />
+        <folder expanded="1" path="animation-folder/logo/" />
+        <folder expanded="1" path="animation-folder/play2/" />
+        <folder expanded="1" path="animation-folder/mockup/" />
+        <folder expanded="1" path="animation-folder/vocabulary/" />
+        <folder expanded="1" path="animation-folder/tebakGambar/" />
+        <folder expanded="1" path="animation-folder/alphabet/" />
+        <folder expanded="1" path="animation-folder/numb/" />
+        <folder expanded="1" path="animation-folder/AlphabateBackground/" />
+        <folder expanded="1" path="animation-folder/suara/" />
+        <folder expanded="1" path="animation-folder/a/" />
+        <folder expanded="1" path="animation-folder/next/" />
+        <folder expanded="1" path="animation-folder/back/" />
+        <folder expanded="1" path="animation-folder/b/" />
+        <folder expanded="1" path="animation-folder/AlphabateBackground2/" />
+        <folder expanded="1" path="animation-folder/c/" />
+        <folder expanded="1" path="animation-folder/d/" />
+        <folder expanded="1" path="animation-folder/e/" />
+        <folder expanded="1" path="animation-folder/f/" />
+        <folder expanded="1" path="animation-folder/home/" />
+        <folder expanded="1" path="animation-folder/g/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/i/" />
+        <folder expanded="1" path="animation-folder/j/" />
+        <folder expanded="1" path="animation-folder/k/" />
+        <folder expanded="1" path="animation-folder/l/" />
+        <folder expanded="1" path="animation-folder/m/" />
+        <folder expanded="1" path="animation-folder/n/" />
+        <folder expanded="1" path="animation-folder/o/" />
+        <folder expanded="1" path="animation-folder/p/" />
+        <folder expanded="1" path="animation-folder/p2/" />
+        <folder expanded="1" path="animation-folder/q/" />
+        <folder expanded="1" path="animation-folder/r/" />
+        <folder expanded="1" path="animation-folder/s/" />
+        <folder expanded="1" path="animation-folder/t/" />
+        <folder expanded="1" path="animation-folder/u/" />
+        <folder expanded="1" path="animation-folder/v/" />
+        <folder expanded="1" path="animation-folder/w/" />
+        <folder expanded="1" path="animation-folder/x/" />
+        <folder expanded="1" path="animation-folder/y/" />
+        <folder expanded="1" path="animation-folder/z/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/AlphabateBackground3/" />
+        <folder expanded="1" path="animation-folder/bajul/" />
+        <folder expanded="1" path="animation-folder/cat/" />
+        <folder expanded="1" path="animation-folder/cecek/" />
+        <folder expanded="1" path="animation-folder/dog/" />
+        <folder expanded="1" path="animation-folder/gajah/" />
+        <folder expanded="1" path="animation-folder/manuk/" />
+        <folder expanded="1" path="animation-folder/monyet/" />
+        <folder expanded="1" path="animation-folder/wedus/" />
+        <folder expanded="1" path="animation-folder/dog2/" />
+        <folder expanded="1" path="animation-folder/lemut/" />
+        <folder expanded="1" path="animation-folder/iwak/" />
+        <folder expanded="1" path="animation-folder/s2/" />
+        <folder expanded="1" path="animation-folder/sapi/" />
+        <folder expanded="1" path="animation-folder/unta/" />
+        <folder expanded="1" path="animation-folder/jerapah/" />
+        <folder expanded="1" path="animation-folder/tikus/" />
+        <folder expanded="1" path="animation-folder/fruit/" />
+        <folder expanded="1" path="animation-folder/color/" />
+        <folder expanded="1" path="animation-folder/classroom/" />
+        <folder expanded="1" path="animation-folder/partOfBody/" />
+        <folder expanded="1" path="animation-folder/animal/" />
+        <folder expanded="1" path="animation-folder/backgonBuah/" />
+        <folder expanded="1" path="animation-folder/apel/" />
+        <folder expanded="1" path="animation-folder/banana/" />
+        <folder expanded="1" path="animation-folder/melon/" />
+        <folder expanded="1" path="animation-folder/jeruk/" />
+        <folder expanded="1" path="animation-folder/pepaya/" />
+        <folder expanded="1" path="animation-folder/grape/" />
+        <folder expanded="1" path="animation-folder/jambu/" />
+        <folder expanded="1" path="animation-folder/mangga/" />
+        <folder expanded="1" path="animation-folder/nanas/" />
+        <folder expanded="1" path="animation-folder/semangka/" />
+        <folder expanded="1" path="animation-folder/alpukat/" />
+        <folder expanded="1" path="animation-folder/nangka/" />
+        <folder expanded="1" path="animation-folder/blimbing/" />
+        <folder expanded="1" path="animation-folder/manggis/" />
+        <folder expanded="1" path="animation-folder/klengkeng/" />
+        <folder expanded="1" path="animation-folder/backgon/" />
+        <folder expanded="1" path="animation-folder/sepor/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/Sprite14/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
+        <folder expanded="1" path="animation-folder/Sprite16/" />
+        <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/AlphabateBackground4/" />
+        <folder expanded="1" path="animation-folder/Sprite21/" />
+        <folder expanded="1" path="animation-folder/Sprite22/" />
+        <folder expanded="1" path="animation-folder/Sprite23/" />
+        <folder expanded="1" path="animation-folder/Sprite24/" />
+        <folder expanded="1" path="animation-folder/Sprite25/" />
+        <folder expanded="1" path="animation-folder/Sprite26/" />
+        <folder expanded="1" path="animation-folder/Sprite27/" />
+        <folder expanded="1" path="animation-folder/Sprite28/" />
+        <folder expanded="1" path="animation-folder/Sprite29/" />
+        <folder expanded="1" path="animation-folder/Sprite30/" />
+        <folder expanded="1" path="animation-folder/Sprite31/" />
+        <folder expanded="1" path="animation-folder/Sprite32/" />
+        <folder expanded="1" path="animation-folder/backgonAngka/" />
+        <folder expanded="1" path="animation-folder/Sprite33/" />
+        <folder expanded="1" path="animation-folder/Sprite34/" />
+        <folder expanded="1" path="animation-folder/Sprite35/" />
+        <folder expanded="1" path="animation-folder/Sprite36/" />
+        <folder expanded="1" path="animation-folder/Sprite37/" />
+        <folder expanded="1" path="animation-folder/Sprite38/" />
+        <folder expanded="1" path="animation-folder/Sprite39/" />
+        <folder expanded="1" path="animation-folder/Sprite40/" />
+        <folder expanded="1" path="animation-folder/Sprite41/" />
+        <folder expanded="1" path="animation-folder/Sprite42/" />
+        <folder expanded="1" path="animation-folder/Sprite43/" />
+        <folder expanded="1" path="animation-folder/Sprite44/" />
+        <folder expanded="1" path="animation-folder/Classroom2/" />
+        <folder expanded="1" path="animation-folder/Sprite45/" />
+        <folder expanded="1" path="animation-folder/Sprite46/" />
+        <folder expanded="1" path="animation-folder/Sprite47/" />
+        <folder expanded="1" path="animation-folder/Sprite48/" />
+        <folder expanded="1" path="animation-folder/Sprite49/" />
+        <folder expanded="1" path="animation-folder/Sprite50/" />
+        <folder expanded="1" path="animation-folder/Sprite51/" />
+        <folder expanded="1" path="animation-folder/Sprite52/" />
+        <folder expanded="1" path="animation-folder/Sprite53/" />
+        <folder expanded="1" path="animation-folder/Sprite54/" />
+        <folder expanded="1" path="animation-folder/hobbies/" />
+        <folder expanded="1" path="animation-folder/tebakgambarpisang/" />
+        <folder expanded="1" path="animation-folder/BLACKBOARD/" />
+        <folder expanded="1" path="animation-folder/pilihan/" />
+        <folder expanded="1" path="animation-folder/benar/" />
+        <folder expanded="1" path="animation-folder/SALAH/" />
+        <folder expanded="1" path="animation-folder/Sprite55/" />
+        <folder expanded="1" path="animation-folder/awan/" />
+        <folder expanded="1" path="animation-folder/Sprite56/" />
+        <folder expanded="1" path="animation-folder/cow/" />
+        <folder expanded="1" path="animation-folder/hewan/" />
+        <folder expanded="1" path="animation-folder/soalhewan/" />
+        <folder expanded="1" path="animation-folder/soalWATERMELON/" />
+        <folder expanded="1" path="animation-folder/GRAPE2/" />
+        <folder expanded="1" path="animation-folder/FOOT/" />
+        <folder expanded="1" path="animation-folder/red/" />
+        <folder expanded="1" path="animation-folder/BLACKBOARD2/" />
+        <folder expanded="1" path="animation-folder/COOKING/" />
+        <folder expanded="1" path="animation-folder/Sprite57/" />
+        <folder expanded="1" path="animation-folder/Sprite58/" />
+        <folder expanded="1" path="animation-folder/Sprite59/" />
+        <folder expanded="1" path="animation-folder/Sprite60/" />
+        <folder expanded="1" path="animation-folder/Sprite61/" />
+        <folder expanded="1" path="animation-folder/lukis/" />
+        <folder expanded="1" path="animation-folder/nyanyi/" />
+        <folder expanded="1" path="animation-folder/Sprite64/" />
+        <folder expanded="1" path="animation-folder/Sprite65/" />
+        <folder expanded="1" path="animation-folder/Sprite66/" />
+        <folder expanded="1" path="animation-folder/Sprite62/" />
+        <folder expanded="1" path="animation-folder/Sprite63/" />
+        <folder expanded="1" path="animation-folder/Sprite67/" />
+        <folder expanded="1" path="animation-folder/Sprite68/" />
+        <folder expanded="1" path="animation-folder/Sprite69/" />
+        <folder expanded="1" path="animation-folder/Sprite70/" />
+        <folder expanded="1" path="animation-folder/Sprite71/" />
+        <folder expanded="1" path="animation-folder/Sprite72/" />
+        <folder expanded="1" path="animation-folder/Sprite73/" />
+        <folder expanded="1" path="animation-folder/Sprite74/" />
+        <folder expanded="1" path="animation-folder/Sprite75/" />
+        <folder expanded="1" path="animation-folder/Sprite76/" />
+        <folder expanded="1" path="animation-folder/Sprite77/" />
+        <folder expanded="1" path="animation-folder/Sprite78/" />
+        <folder expanded="1" path="animation-folder/Sprite79/" />
+        <folder expanded="1" path="animation-folder/Sprite80/" />
+        <folder expanded="1" path="animation-folder/Sprite81/" />
+        <folder expanded="1" path="animation-folder/Sprite82/" />
+        <folder expanded="1" path="animation-folder/Sprite83/" />
+        <folder expanded="1" path="animation-folder/Sprite84/" />
+        <folder expanded="1" path="animation-folder/Untitled/" />
+        <folder expanded="1" path="animation-folder/body/" />
+        <folder expanded="1" path="animation-folder/b2/" />
+        <folder expanded="1" path="animation-folder/Sprite85/" />
+        <folder expanded="1" path="animation-folder/kuku/" />
+        <folder expanded="1" path="animation-folder/Sprite87/" />
+        <folder expanded="1" path="animation-folder/Sprite88/" />
+        <folder expanded="1" path="animation-folder/Sprite89/" />
+        <folder expanded="1" path="animation-folder/Sprite90/" />
+        <folder expanded="1" path="animation-folder/Sprite91/" />
+        <folder expanded="1" path="animation-folder/Sprite92/" />
+        <folder expanded="1" path="animation-folder/Sprite93/" />
+        <folder expanded="1" path="animation-folder/Sprite94/" />
+        <folder expanded="1" path="animation-folder/Sprite95/" />
+        <folder expanded="1" path="animation-folder/leher/" />
+        <folder expanded="1" path="animation-folder/Sprite97/" />
+        <folder expanded="1" path="animation-folder/mata/" />
+        <folder expanded="1" path="animation-folder/rambut/" />
+        <folder expanded="1" path="animation-folder/Sprite100/" />
+        <folder expanded="1" path="animation-folder/Sprite101/" />
+        <folder expanded="1" path="animation-folder/Sprite86/" />
+        <folder expanded="1" path="animation-folder/Sprite96/" />
+        <folder expanded="1" path="animation-folder/Sprite98/" />
+        <folder expanded="1" path="animation-folder/eye/" />
+        <folder expanded="1" path="animation-folder/hair/" />
+        <folder expanded="1" path="animation-folder/Sprite99/" />
+        <folder expanded="1" path="animation-folder/Sprite102/" />
+        <folder expanded="1" path="animation-folder/Sprite103/" />
+        <folder expanded="1" path="animation-folder/ear/" />
+        <folder expanded="1" path="animation-folder/Sprite104/" />
+        <folder expanded="1" path="animation-folder/Sprite105/" />
+        <folder expanded="1" path="animation-folder/Sprite106/" />
+        <folder expanded="1" path="animation-folder/Sprite107/" />
+        <folder expanded="1" path="animation-folder/FOOT2/" />
+        <folder expanded="1" path="animation-folder/Sprite108/" />
+        <folder expanded="1" path="animation-folder/Sprite109/" />
+        <folder expanded="1" path="animation-folder/Sprite110/" />
+        <folder expanded="1" path="animation-folder/tooth/" />
+        <folder expanded="1" path="animation-folder/Sprite111/" />
+        <folder expanded="1" path="animation-folder/Sprite112/" />
+        <folder expanded="1" path="animation-folder/Sprite113/" />
+        <folder expanded="1" path="animation-folder/Sprite114/" />
+        <folder expanded="1" path="animation-folder/Sprite115/" />
+        <folder expanded="1" path="animation-folder/Sprite116/" />
+        <folder expanded="1" path="animation-folder/cow2/" />
+        <folder expanded="1" path="animation-folder/elephant/" />
+        <folder expanded="1" path="animation-folder/Sprite117/" />
+        <folder expanded="1" path="animation-folder/Sprite118/" />
+        <folder expanded="1" path="animation-folder/Sprite119/" />
+    </folders-expanded>
+</c2uistate>

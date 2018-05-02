@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 39</name>
+    <events>
+        <event-block sid="439456682722592">
+            <conditions>
+                <condition id="17" name="On tap object" sid="356379182468162" type="Touch">
+                    <param id="0" name="Object">next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="300248352662640" type="System">
+                    <param id="0" name="Layout">Layout 40</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="118329321027509">
+            <conditions>
+                <condition id="17" name="On tap object" sid="905362597956075" type="Touch">
+                    <param id="0" name="Object">back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="783931948329862" type="System">
+                    <param id="0" name="Layout">Layout 41</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="514116496987217">
+            <conditions>
+                <condition id="17" name="On tap object" sid="475959979055497" type="Touch">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="931092958944297" type="System">
+                    <param id="0" name="Layout">dashboard</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="894655243413288">
+            <conditions>
+                <condition id="0" name="On function" sid="155606789781946" type="Function">
+                    <param id="0" name="Name">&quot;setalpha&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="812875495542872" type="System">
+                    <param id="0" name="Object to create">AlphabateBackground</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-3" name="Create object" sid="797455361046446" type="System">
+                    <param id="0" name="Object to create">home</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">38</param>
+                </action>
+                <action id="-3" name="Create object" sid="786918800947501" type="System">
+                    <param id="0" name="Object to create">next</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">750</param>
+                    <param id="3" name="Y">400</param>
+                </action>
+                <action id="-3" name="Create object" sid="801180586492239" type="System">
+                    <param id="0" name="Object to create">back</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">150</param>
+                    <param id="3" name="Y">400</param>
+                </action>
+                <action id="-3" name="Create object" sid="359192130758350" type="System">
+                    <param id="0" name="Object to create">Classroom2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">224</param>
+                    <param id="3" name="Y">128</param>
+                </action>
+                <action id="-3" name="Create object" sid="319321507463763" type="System">
+                    <param id="0" name="Object to create">Sprite41</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">480</param>
+                    <param id="3" name="Y">128</param>
+                </action>
+                <action id="-3" name="Create object" sid="956589181556483" type="System">
+                    <param id="0" name="Object to create">Sprite42</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">736</param>
+                    <param id="3" name="Y">128</param>
+                </action>
+                <action id="-3" name="Create object" sid="851303571311812" type="System">
+                    <param id="0" name="Object to create">Sprite44</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">320</param>
+                    <param id="3" name="Y">384</param>
+                </action>
+                <action id="-3" name="Create object" sid="957936994581731" type="System">
+                    <param id="0" name="Object to create">Sprite43</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">544</param>
+                    <param id="3" name="Y">384</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="263747967396538">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="525699682128814" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="912132168072379" type="Function">
+                    <param id="0" name="Name">&quot;setalpha&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="590826038217523">
+            <conditions>
+                <condition id="17" name="On tap object" sid="330115203220946" type="Touch">
+                    <param id="0" name="Object">lukis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="429472150271042">
+            <conditions>
+                <condition id="17" name="On tap object" sid="131051694466279" type="Touch">
+                    <param id="0" name="Object">lukis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="237912644432651">
+            <conditions>
+                <condition id="17" name="On tap object" sid="966314690536958" type="Touch">
+                    <param id="0" name="Object">lukis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="423235317023790">
+            <conditions>
+                <condition id="17" name="On tap object" sid="636504590064027" type="Touch">
+                    <param id="0" name="Object">lukis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="128402716827444">
+            <conditions>
+                <condition id="17" name="On tap object" sid="384941963662208" type="Touch">
+                    <param id="0" name="Object">lukis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
